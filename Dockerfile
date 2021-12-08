@@ -1,8 +1,4 @@
-FROM alpine:3.8
-
-ARG BUILD_DATE
-ENV VERSION 1.0.0
-LABEL build_version="RadPenguin version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+FROM alpine
 
 ENV TZ="America/Edmonton"
 ENV PUID=1000
